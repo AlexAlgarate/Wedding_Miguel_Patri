@@ -110,12 +110,10 @@ account_number_text = os.environ["ACCOUNT_NUMBER"]
 contact_title = "Contacta con nosotros"
 contact_bride = dict(
     name="Patri",
-    email=os.environ["PATRI_EMAIL"],
     phone_number=os.environ["PATRI_PHONE"],
 )
 contact_groom = dict(
     name="Miguel",
-    email=os.environ["MIGUEL_EMAIL"],
     phone_number=os.environ["MIGUEL_PHONE"],
 )
 contact_text_whatsapp = """
@@ -189,7 +187,5 @@ supabase_name_columns = [
 ]
 
 supabase_table_name = "wedding_invitations"
-toast_accepts_invitation = (
-    "¡Genial! ¡Te esperamos en el día más importante de nuestras vidas"
-)
+toast_accepts_invitation = "¡Genial! ¡Te esperamos en el día más importante de nuestras vidas"
 toast_decline_invitation = "¿Estás segura? Si cambias de idea háznoslo saber por favor."
