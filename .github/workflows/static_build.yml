@@ -14,8 +14,8 @@ jobs:
       contents: write
     env:
       ACCOUNT_NUMBER: ${{ secrets.ACCOUNT_NUMBER }}
-      PATRI_PHONE: ${{ secrets.VICKY_PHONE }}
-      MIGUEL_PHONE: ${{ secrets.ALEX_PHONE }}
+      PATRI_PHONE: ${{ secrets.PATRI_PHONE }}
+      MIGUEL_PHONE: ${{ secrets.MIGUEL_PHONE }}
 
     steps:
       - name: Checkout repo
