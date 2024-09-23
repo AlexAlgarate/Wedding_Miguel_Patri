@@ -13,7 +13,6 @@ from wedding_miguel_patri.views import (
     bus_service,
     celebration,
     confirmation,
-    contact,
     countdown,
     google_photo,
     header,

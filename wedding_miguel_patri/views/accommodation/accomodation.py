@@ -1,13 +1,9 @@
 import reflex as rx
 
-from wedding_miguel_patri.components import (
-    card,
-    text_section,
-    title_section,
-)
-
-from wedding_miguel_patri.utils import utils
+from wedding_miguel_patri.components import card, text_section, title_section
 from wedding_miguel_patri.styles import Color, FontWeight
+from wedding_miguel_patri.utils import utils
+
 from .components import whatsapp_button
 
 
