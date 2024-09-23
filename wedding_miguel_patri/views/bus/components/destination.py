@@ -41,7 +41,7 @@ def _bus_text_destination() -> rx.Component:
         #     as_="span",
         # ),
         rx.text(
-            utils.hotel_address,
+            "Guadalajara",
             font_weight=FontWeight.BOLD.value,
             text_wrap="balance",
             as_="span",
