@@ -28,9 +28,11 @@ def _bus_text_destination() -> rx.Component:
         rx.box(
             "a las ",
             rx.text(
-                "05:30 ",
-                font_weight=FontWeight.BOLD.value,
-                as_="span",
+                "05:00 ",
+                # font_weight=FontWeight.BOLD.value,
+                
+                
+                
             ),
             "con destino",
         ),
