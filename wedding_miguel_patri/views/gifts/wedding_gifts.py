@@ -6,6 +6,7 @@ from wedding_miguel_patri.components import (
     text_section,
     title_section,
 )
+from wedding_miguel_patri.styles.fonts import FontWeight
 from wedding_miguel_patri.utils import IconRoutes, utils
 
 
@@ -23,9 +24,6 @@ def wedding_gifts() -> rx.Component:
         icon_section(icon=IconRoutes.ICON_GIFT.value, alt=""),
         title_section(title=utils.gift_title),
         text_section(utils.gift_text),
-        text_section(
-            utils.account_number_text,
-            font_weight="600",
-        ),
+        text_section(utils.account_number_text, font_weight=FontWeight.HIGH.value),
         id="gift_section",
     )

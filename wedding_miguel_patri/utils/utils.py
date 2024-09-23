@@ -125,69 +125,10 @@ contact_text_email = "Si te es más cómodo, puedes mandarnos un correo a:"
 # Bottom web message
 bottom_text = "Te esperamos"
 
-
-OPTIONS_CONFIRMATION = ["Sí, ¡por supuesto!", "No puedo, lo siento :("]
-OPTIONS_CONFIRMATION_DICT = {
-    "Yes": "Sí, ¡por supuesto!",
-    "No": "No puedo, lo siento :(",
-}
-OPTIONS_COMPANIONN_DICT = {
-    "Yes_companion": "Sí, voy con acompañantes",
-    "No_companion": "No, solo yo",
-}
-
-FOOD_ALLERGIES = [
-    "No",
-    "Pescado",
-    "Frutos Secos",
-    "Soja",
-    "Mariscos",
-    "Lácteos",
-    "Otros",
-]
-
-personal_info_dict: List[Dict[str, str]] = [
-    {
-        "name": "first_name",
-        "placeholder": "Nombre...",
-        "type": "text",
-    },
-    {
-        "name": "last_name",
-        "placeholder": "Apellidos...",
-        "type": "text",
-    },
-    {
-        "name": "phone_number",
-        "placeholder": "Teléfono...",
-        "type": "tel",
-    },
-    # {
-    #     "name": "email",
-    #     "placeholder": "Email...",
-    #     "type": "email",
-    # },
-]
-
-number_adults = ["1", "2", "3", "4", "5", "Otros"]
-number_kids = ["0", "1", "2", "3", "4", "Otros"]
-
-supabase_name_columns = [
-    "confirm_invitation",
-    "first_name",
-    "last_name",
-    "phone_number",
-    "wedding_companion",
-    "number_adults",
-    "number_kids",
-    "name_companion",
-    "food_allergies",
-    "songs",
-    "created_at",
-]
-
-supabase_table_name = "wedding_invitations"
-toast_accepts_invitation = (
-    "¡Genial! ¡Te esperamos en el día más importante de nuestras vidas"
-)
-toast_decline_invitation = "¿Estás segura? Si cambias de idea háznoslo saber por favor."
+# Accomodation
+accomodation_title = "Alojamiento"
+accomodation_text_one = """
+    Si te quieres alojar en Guadalajara,
+    existe una tarifa especial en el hotel Pax.
+"""
+accomodation_text_two = "Si necesitas información, ¡pregúntanos!"
