@@ -30,9 +30,6 @@ def _bus_text_destination() -> rx.Component:
             rx.text(
                 "05:00 ",
                 # font_weight=FontWeight.BOLD.value,
-                
-                
-                
             ),
             "con destino",
         ),
