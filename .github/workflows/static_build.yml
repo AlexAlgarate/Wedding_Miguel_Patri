@@ -26,10 +26,13 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
-      - name: Verificar caché de pip
-        run: |
-          pip cache dir
-          du -sh $(pip cache dir)
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Run build script
         run: |
