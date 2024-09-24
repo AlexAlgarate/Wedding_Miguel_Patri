@@ -26,6 +26,10 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+      - name: Verificar caché de pip
+        run: |
+          pip cache dir
+          du -sh $(pip cache dir)
 
       - name: Run build script
         run: |
