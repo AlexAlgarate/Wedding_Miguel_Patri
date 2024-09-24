@@ -17,9 +17,9 @@ def accomodation() -> rx.Component:
             max_height="auto",
         ),
         title_section(title=utils.accomodation_title),
-        text_section(utils.accomodation_text_one),
+        text_section(utils.accomodation_main_text),
         text_section(
-            utils.accomodation_text_two,
+            utils.accomodation_ask_info,
             font_weight=FontWeight.HIGH.value,
         ),
         whatsapp_button(utils.contact_bride, utils.contact_groom),

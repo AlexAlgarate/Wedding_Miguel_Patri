@@ -32,9 +32,8 @@ wedding_hour = "19:30"
 
 
 # Image descriptions
-alt_image_celebration = "Foto de la entrada de La Agripina."
+alt_image_celebration = "Foto de Montealvar."
 alt_image_partners = "Foto principal de los novios."
-label_image_celebration = "Pincha en la imagen para visitar el sitio web de La Agripina"
 alt_image_leafs = "Foto de unas hojas amarillas."
 alt_image_lavender = "Foto de unas ramas de lavanda con sus hojas"
 
@@ -43,14 +42,12 @@ alt_icon_confirmation = "Icono de un sobre morado"
 alt_icon_celebration = "Icono de un pórtico con velo morado"
 alt_icon_bus = "Icono de un bus morado"
 alt_icon_ubication = "Icono de ubicación morado"
-alt_icon_contact = "Icono de un teléfono y un mensaje de texto morado"
 alt_icon_whatsapp = "Icono de Whatsapp morado"
 alt_icon_camera = "Icono de una cámara de fotos morada"
 
 
 # SECTION TEXTS
 # Countdown texts
-countdown_title: str = "¡Cuenta atrás!"
 countdown_text = "¡Ven a acompañarnos en el día más feliz de nuestras vidas!"
 countdown_button = "Guardar fecha"
 
@@ -71,20 +68,16 @@ wedding_address_province = "Guadalajara"
 
 
 # Bus
-but_title = "Servicio de autobús"
+bus_title = "Servicio de autobús"
 bus_text = """
 Para garantizar que todo el mundo se lo pueda pasar genial y disfrutar con nosotros
 sin preocuparse de conducir habrá servicio de autobús de vuelta a Guadalajara cuando terminemos. 
 Los coches se pueden quedar en la finca y recoger al día siguiente sin problema."""
-bus_origin_title = "Ida a la ceremonia"
-bur_origin_address = "El Carpe"
-hotel_name = "Hotel Pax"
-hotel_address = "Plaza de Santo Domingo"
-origin_bus_schedule = "12:00"
-
 bus_destination_title = "Regreso a casa"
 
-destination_address = "Cjón. los Romanos, 1 (Punta Umbría, Huelva)"
+# TODO Review this variables, if origin() don't be used in the future, drop them
+hotel_address = "Plaza de Santo Domingo"
+origin_bus_schedule = "12:00"
 
 
 # Photo Album
@@ -106,8 +99,7 @@ gift_text = """
 account_number_text = os.environ["ACCOUNT_NUMBER"]
 
 
-# Contact
-contact_title = "Contacta con nosotros"
+# Contact & Accomodation
 contact_bride = dict(
     name="Patri",
     phone_number=os.environ["PATRI_PHONE"],
@@ -116,19 +108,12 @@ contact_groom = dict(
     name="Miguel",
     phone_number=os.environ["MIGUEL_PHONE"],
 )
-contact_text_whatsapp = """
-Ponte en contacto con nosotros a través de Whatsapp haciendo click directamente en el botón
-"""
-contact_text_email = "Si te es más cómodo, puedes mandarnos un correo a:"
-
-
-# Bottom web message
-bottom_text = "Te esperamos"
-
-# Accomodation
 accomodation_title = "Alojamiento"
-accomodation_text_one = """
+accomodation_main_text = """
     Si te quieres alojar en Guadalajara,
     existe una tarifa especial en el hotel Pax.
 """
-accomodation_text_two = "Si necesitas información, ¡pregúntanos!"
+accomodation_ask_info = "Si necesitas información, ¡pregúntanos!"
+
+# Bottom web message
+bottom_text = "Te esperamos"

@@ -45,7 +45,6 @@ def index() -> rx.Component:
                 accomodation(),
                 bus_service(),
                 flowers_between_section(),
-                # contact(),
                 google_photo(),
                 gap="16px",
                 width="100%",
