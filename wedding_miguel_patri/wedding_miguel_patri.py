@@ -27,7 +27,7 @@ from wedding_miguel_patri.views import (
 )
 def index() -> rx.Component:
     return rx.vstack(
-        rx.script("document.documentElement.lang='es'"),
+        # rx.script("document.documentElement.lang='es'"),
         navbar(),
         lavender_flowers(
             alt=utils.alt_image_lavender,
