@@ -6,9 +6,11 @@ from wedding_miguel_patri.views.countdown.countdown import countdown
 from wedding_miguel_patri.views.gifts.wedding_gifts import wedding_gifts
 from wedding_miguel_patri.views.google_photo.google_photo import google_photo
 from wedding_miguel_patri.views.header.header import header
+from wedding_miguel_patri.views.navbar.navbar import navbar
 
 __all__ = [
     "bus_service",
+    "navbar",
     "accomodation",
     "celebration",
     "confirmation",

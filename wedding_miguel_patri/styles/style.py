@@ -46,6 +46,10 @@ BASE_STYLE = {
         "justify_content": "center",
         "flex-direction": "column",
     },
+    rx.link: {
+        "text_decoration": "none",
+        "_hover": {"text_decoration": "none"},
+    },
 }
 
 
