@@ -14,7 +14,7 @@ from .components import destination
 def bus_service() -> rx.Component:
     return card(
         icon_section(icon=IconRoutes.ICON_BUS.value, alt=utils.alt_icon_bus),
-        title_section(title=utils.but_title),
+        title_section(title=utils.bus_title),
         text_section(utils.bus_text),
         destination(),
         id="bus_service_section",
